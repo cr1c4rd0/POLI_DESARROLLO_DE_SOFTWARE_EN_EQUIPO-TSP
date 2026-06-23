@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferretools - Catálogo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<nav class="navbar">
+    <div class="logo"> Ferretools</div>
+    <div class="nav-links">
+        <div class="cart-icon" id="cartIcon">🛒<span class="cart-count" id="cartCount">0</span></div>
+        <div class="user-info">
+            <span class="user-name" id="userNameDisplay">Jonathan</span>
+            <button class="logout-btn" id="logoutBtn">Salir</button>
+        </div>
+    </div>
+    </nav>
+
+    <div class="main-container">
+        <div class="catalog">
+            <h1>Nuestras Herramientas</h1>
+            <div class="catalog-grid" id="catalogGrid"></div>
+        </div>
+        <div class="cart-sidebar" id="cartSidebar">
+            <h2>🛒 Mi Carrito</h2>
+            <div id="cartContent"></div>
+        </div>
+    </div>
+
+    <script src="js/catalogo.js"></script>
+    <script src="js/compra.js"></script>
+</body>
+</html> 
